@@ -1,0 +1,5 @@
+1|Ministerio de Hacienda|hacienda.gob.do
+2|Ministerio de Educaci�n|educacion.gob.do
+3|Superintendencia de Bancos|sb.gob.do
+4|abi|abi.com.do
+5|Pool|pool@fill.com
