@@ -1,8 +1,7 @@
 import React from 'react';
-import './MainContent.css';
 import Entidades from './entidades';
 
-const MainContent = () => {
+const Consult = () => {
     return (
         <div className="main-content">
             <Entidades />
@@ -10,4 +9,4 @@ const MainContent = () => {
     );
 }
 
-export default MainContent;
+export default Consult;
