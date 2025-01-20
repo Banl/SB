@@ -1,7 +1,11 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: import.meta.env.VITE_REACT_APP_API_URL,
+    headers: {
+        'Content-Type': 'application/json',
+    },
+
 });
 
 api.interceptors.request.use((config) => {
@@ -11,6 +15,5 @@ api.interceptors.request.use((config) => {
     }
     return config;
 });
-
 
 export default api;
